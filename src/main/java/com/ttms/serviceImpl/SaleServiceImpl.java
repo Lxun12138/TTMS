@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by hacker on 17-6-1.
- */
 @Service("SaleServiceImpl")
 public class SaleServiceImpl implements SaleService{
 

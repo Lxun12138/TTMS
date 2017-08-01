@@ -5,9 +5,7 @@ import com.ttms.entity.Sale_item;
 
 import java.util.List;
 
-/**
- * Created by hacker on 17-6-1.
- */
+
 public interface  SaleItemService {
     public void insertSaleItem(Sale_item sale_item);
     public List<Sale_item> selectSale_item();

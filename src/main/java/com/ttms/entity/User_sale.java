@@ -1,8 +1,6 @@
 package com.ttms.entity;
 
-/**
- * Created by hacker on 17-6-5.
- */
+
 public class User_sale {
 
         private int user_id;

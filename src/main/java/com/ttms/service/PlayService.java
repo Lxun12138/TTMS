@@ -5,9 +5,7 @@ import com.ttms.entity.Play;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-8.
- */
+
 
 public interface PlayService {
     public void insertPlay(Play play);

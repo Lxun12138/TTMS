@@ -12,9 +12,7 @@ import com.ttms.dao.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by hacker on 17-6-8.
- */
+
 @Service("User_saleServiceImpl")
 public class User_saleServicelmpl  implements User_saleService{
     @Autowired

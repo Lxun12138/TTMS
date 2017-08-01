@@ -1,8 +1,5 @@
 package com.ttms.entity;
 
-/**
- * Created by hjh on 16-11-16.
- */
 public class Schedule {
 
     private int sched_id;

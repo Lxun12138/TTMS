@@ -9,9 +9,7 @@ import com.ttms.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by hacker on 17-6-1.
- */
+
 @Service("TicketServiceImpl")
 public class TicketServiceImpl implements TicketService {
 

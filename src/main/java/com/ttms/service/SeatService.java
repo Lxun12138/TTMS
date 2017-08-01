@@ -6,9 +6,7 @@ import com.ttms.entity.Studio;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-6.
- */
+
 public interface SeatService {
 
 

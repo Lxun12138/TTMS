@@ -15,9 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-6.
- */
+
 @Controller("SeatController")
 @RequestMapping("/seat")
 public class SeatController {

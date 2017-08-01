@@ -7,9 +7,7 @@ import com.ttms.entity.Ticket;
 
 import java.util.List;
 
-/**
- * Created by hacker on 17-6-1.
- */
+
 @Repository("TicketDAO")
 public interface TicketDAO {
     public void insertTicket(Ticket ticket);

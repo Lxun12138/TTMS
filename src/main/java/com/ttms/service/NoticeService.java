@@ -4,9 +4,7 @@ import com.ttms.entity.Notice;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 public interface NoticeService {
 
     public void insertNotice(Notice notice);

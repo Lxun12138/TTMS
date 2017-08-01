@@ -15,9 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by hjh on 16-12-8.
- */
+
 @Controller("PlayController")
 @RequestMapping("/play")
 public class PlayController{

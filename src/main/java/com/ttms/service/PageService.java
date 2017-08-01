@@ -4,9 +4,7 @@ package com.ttms.service;
 import javax.servlet.http.HttpServletRequest;
 
 
-/**
- * Created by hjh on 16-11-23.
- */
+
 
 public interface PageService {
 

@@ -1,8 +1,6 @@
 package com.ttms.entity;
 
-/**
- * Created by hjh on 16-12-14.
- */
+
 public class Page {
 
     private int pageNow = 1;            //当前页数

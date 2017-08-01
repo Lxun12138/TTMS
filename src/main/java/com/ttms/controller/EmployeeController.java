@@ -12,9 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-4.
- */
+
 @Controller("EmployeeController")
 @RequestMapping("/employee")
 public class EmployeeController {

@@ -1,10 +1,4 @@
-<%@ page import="com.ttms.entity.Employee" %><%--
-  Created by IntelliJ IDEA.
-  User: hjh
-  Date: 16-12-4
-  Time: 下午10:02
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.ttms.entity.Employee" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>

@@ -16,9 +16,6 @@ import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-1.
- */
 @Service("CheckServiceImpl")
 public class CheckServiceImpl implements CheckService {
 

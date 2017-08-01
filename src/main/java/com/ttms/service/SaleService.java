@@ -1,9 +1,7 @@
 package com.ttms.service;
 import java.util.*;
 import com.ttms.entity.*;
-/**
- * Created by hacker on 17-6-1.
- */
+
 public interface SaleService {
 
     public void insertSale(Sale sale);

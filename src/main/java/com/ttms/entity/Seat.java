@@ -1,8 +1,5 @@
 package com.ttms.entity;
 
-/**
- * Created by hjh on 16-11-16.
- */
 public class Seat {
 
     private int seat_id;

@@ -5,9 +5,7 @@ import com.ttms.entity.ScheduleDetail;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 
 public interface ScheduleService {
 

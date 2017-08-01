@@ -9,9 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-1.
- */
 @Service("EmployeeServiceImpl")
 public class EmployeeServiceImpl implements EmployeeService {
 

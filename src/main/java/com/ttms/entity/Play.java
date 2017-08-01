@@ -2,9 +2,6 @@ package com.ttms.entity;
 
 import java.util.Date;
 
-/**
- * Created by hjh on 16-11-16.
- */
 public class Play {
     private int play_id;
     private String play_type;

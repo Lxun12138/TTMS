@@ -8,487 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782ff8cd-d8d8-45b0-be6d-ad8e91566256" name="Default" comment="first commit SSM_TTMS">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/EmployeeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/NoticeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/PlayController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/ScheduleController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/SeatController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/StudioController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/controller/ticketController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/EmployeeDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/NoticeDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/PageDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/PlayDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/SaleDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/SaleitemDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/ScheduleDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/ScheduleDetailDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/SeatDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/StudioDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/dao/TicketDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Employee.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Notice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Page.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Play.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Sale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Sale_item.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Schedule.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/ScheduleDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Seat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Studio.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/Ticket.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/entity/User_sale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/filter/FilterA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/filter/FilterB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/listener/ContextLoaderListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/CheckService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/EmployeeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/NoticeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/PageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/PlayService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/SaleItemService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/SaleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/ScheduleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/SeatService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/StudioService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/TicketService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/service/User_saleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/CheckServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/EmployeeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/NoticeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/PageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/PlayServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/SaleItemServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/SaleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/ScheduleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/SeatServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/StudioServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/TicketServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ttms/serviceImpl/User_saleServicelmpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/EmployeeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/NoticeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/PlayController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/ScheduleController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/SeatController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/StudioController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/controller/ticketController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/EmployeeDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/NoticeDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/PageDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/PlayDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/SaleDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/SaleitemDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/ScheduleDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/ScheduleDetailDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/SeatDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/StudioDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/dao/TicketDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Employee.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Notice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Page.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Play.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Sale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Sale_item.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Schedule.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/ScheduleDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Seat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Studio.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/Ticket.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/entity/User_sale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/filter/FilterA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/filter/FilterB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/listener/ContextLoaderListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/CheckService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/EmployeeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/NoticeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/PageService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/PlayService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/SaleItemService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/SaleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/ScheduleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/SeatService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/StudioService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/TicketService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/service/User_saleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/CheckServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/EmployeeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/NoticeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/PageServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/PlayServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/SaleItemServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/SaleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/ScheduleServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/SeatServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/StudioServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/TicketServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/com/ttms/serviceImpl/User_saleServicelmpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/commons-io-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/druid-1.0.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/json-20160810.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/log4j-1.2.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/mybatis-3.2.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/mysql-connector-java-5.1.29.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/slf4j-api-1.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-aop-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-beans-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-context-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-context-support-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-core-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-expression-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-jdbc-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-oxm-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-test-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-tx-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-web-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/lib/spring-webmvc-4.2.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Material-Design-Iconic-Fontf066.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Material-Design-Iconic-Fontf066.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Bold-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Light-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Medium-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Medium-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Medium-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Medium-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Regular-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/47.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/Developer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/Excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/Word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/banner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bj_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bjt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bnt_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bnt_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bnt_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bnt_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bnt_show.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/btn_shoucang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/bxjg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/date1.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/demo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/demo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/demo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/dyy1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/dyy2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/dyy3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/dyy4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/dyy6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/f_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/gg_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/head_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/header_bj_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/icon_lift.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/img-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/img_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/index_lm2_36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/jj_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/jlbhd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/lb_pic_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/leaveapply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/lift_bj_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/lift_li_02_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/lift_li_bj_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/lm_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/login_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/login_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/logo_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/logo_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/logo_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/logo_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/mian_b_gj_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/mian_bj_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/mian_c_bj_14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/mian_rbj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/middil_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/middil_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/nsyj0630.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/p1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/pic_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/r_bj_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/r_icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/r_icon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/r_icon_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/r_icon_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/rating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/rating1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/shouye.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/single.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/sousuo_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/sqnx2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/ssss0727.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/stnb0707.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tab_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/task07-bottom1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/task07-bottom2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/task07-bottom3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tick1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tt_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tt_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/tt_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/wenjianjia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/wenjianjia01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/xmny0609.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/yx0616.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/images/影厅.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/aaaaaaaaaa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/lalall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/p1797280884.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/sign1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/spring.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/可用.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/图片1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/影厅.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/pic/标志.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-01-20 15-51-23 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-01-20 16-21-56 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-01-25 22-45-17 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-01-25 23-01-57 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-01-25 23-12-49 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/2017-03-17 09-37-29 的屏幕截图.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/58a69299c6f27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/Excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/demo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/logo_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/mavne2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/p1797280884.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/spring.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/timg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/可用.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/图片1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/影厅.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/picture/标志.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/spring-MVC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/spring-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config/ttms.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/PageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/PlayMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/SaleItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/SaleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ScheduleDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ScheduleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/SeatMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/StudioMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/TicketMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/config/spring-MVC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/config/spring-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/config/ttms.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/EmployeeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/NoticeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/PageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/PlayMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/SaleItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/SaleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/ScheduleDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/ScheduleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/SeatMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/StudioMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/classes/mapper/TicketMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/app.min.1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/app.min.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/app.min.3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/ie6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/material-design-iconic-font.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/style(1).css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/css/style1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Bold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Medium-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/Roboto-Regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/shadowsintolight-webfont-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/shadowsintolight-webfont-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/shadowsintolight-webfont-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/shadowsintolight-webfont.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/fonts/shadowsintolight-webfontd41d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery-1.4.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery-2.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery-func.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery.flexisel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/loading-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/ng-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/nouislider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/ocLazyLoad.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/responsiveslides.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/ui-bootstrap-tpls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/statics/js/ui-bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/UpdatePic.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/index-x.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/knowledge/AddStudio.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/knowledge/AddStudioShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/knowledge/DelStudioShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/knowledge/Studio.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/knowledge/UpdateStudio.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/notice/AddNotice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/notice/ChangeNotice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/notice/Notice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/notice/NoticeDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/notice/UpdateNotice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/play/AddPlay.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/play/AddPlayShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/play/DelPlayShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/play/Play.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/play/UpdatePlay.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/AddEmployee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/AddTopEmployee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/Employee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/EmployeeDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/TopEmployee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/UpdateEmployee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/rsxz/UpdateTopEmployee.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/AddSchedule.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/AddSchedule2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/AddScheduleShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/DelScheduleShow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/Schedule.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/schedule/UpdateSchedule.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/task/AddSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/task/ChangeSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/task/DeleteSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/task/Seat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/task/Seats.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/ticket/AddSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/ticket/ChangeSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/ticket/DeleteSeat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/ticket/Seat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/manager/ticket/Seats.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/ordinary/ChangePass.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/ordinary/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/ordinary/order.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/ordinary/seats.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/ordinary/shows.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/show.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/userlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/com.myttms.ttmss/views/userregister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ttms/filter/FilterA.java" afterPath="$PROJECT_DIR$/src/main/java/com/ttms/filter/FilterA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ttms/filter/FilterB.java" afterPath="$PROJECT_DIR$/src/main/java/com/ttms/filter/FilterB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/base.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/reset.css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/style(1).css" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/style(1).css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/form.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery-func.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery-func.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/ui-bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/ui-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myttms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -544,7 +64,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2990">
               <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4655#4656#0" expanded="false" />
+                <element signature="e#4684#4685#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -554,17 +78,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/manager/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -589,12 +105,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
               <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="248">
+                <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -661,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/manager/ticket/ticket.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttms/entity/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttms/entity/Sale.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ttms/entity/Sale_item.java" />
@@ -712,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/show.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/userregister.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -2237,7 +1766,7 @@
       <workItem from="1496856317944" duration="31000" />
       <workItem from="1496880029052" duration="24731000" />
       <workItem from="1501506222842" duration="2901000" />
-      <workItem from="1501549030909" duration="676000" />
+      <workItem from="1501549030909" duration="2273000" />
     </task>
     <task id="LOCAL-00001" summary="first commit SSM_TTMS">
       <created>1501509672929</created>
@@ -2267,7 +1796,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470021000" />
+    <option name="totallyTimeSpent" value="471618000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2346,13 +1875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ttms/dao/StudioDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ttms/controller/StudioController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -2797,7 +2319,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2805,7 +2329,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2990">
           <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4655#4656#0" expanded="false" />
+            <element signature="e#4684#4685#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2862,6 +2390,17 @@
         <state relative-caret-position="92">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="248">
+            <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

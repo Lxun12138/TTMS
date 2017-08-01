@@ -5,9 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 @Repository("NoticeDAO")
 public interface NoticeDAO {
 

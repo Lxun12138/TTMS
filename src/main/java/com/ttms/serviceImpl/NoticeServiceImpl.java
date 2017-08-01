@@ -10,9 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 @Service("NoticeServiceImpl")
 public class NoticeServiceImpl implements NoticeService {
 

@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-6.
- */
+
 @Repository("SeatDAO")
 public interface SeatDAO {
 

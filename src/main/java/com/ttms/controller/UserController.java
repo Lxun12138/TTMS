@@ -15,9 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by hjh on 16-11-30.
- */
+
 @Controller("UserController")
 @RequestMapping("/user")
 public class UserController {

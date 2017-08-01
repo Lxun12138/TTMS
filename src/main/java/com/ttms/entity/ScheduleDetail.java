@@ -1,8 +1,6 @@
 package com.ttms.entity;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 public class ScheduleDetail {
 
     private int sched_id;

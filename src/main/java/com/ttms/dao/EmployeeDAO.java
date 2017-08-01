@@ -5,9 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-11-30.
- */
 @Repository("EmployeeDAO")
 public interface EmployeeDAO {
 

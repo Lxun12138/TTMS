@@ -4,9 +4,7 @@ import com.ttms.entity.Employee;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-1.
- */
+
 public interface EmployeeService {
 
     public void insertEmployee(Employee employee);

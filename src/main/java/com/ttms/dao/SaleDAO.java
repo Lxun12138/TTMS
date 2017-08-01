@@ -4,9 +4,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by hacker on 17-6-1.
- */
+
 
 @Repository("SaleDAO")
 

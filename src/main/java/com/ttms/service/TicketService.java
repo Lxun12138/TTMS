@@ -8,9 +8,7 @@ import com.ttms.entity.Ticket;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by hacker on 17-6-1.
- */
+
 public interface TicketService {
     public void insertTicket(Ticket ticket);
 

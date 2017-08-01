@@ -16,9 +16,7 @@ import java.io.UnsupportedEncodingException;
 import java.sql.Date;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-8.
- */
+
 @Service("PlayServiceImpl")
 public class PlayServiceImpl implements PlayService {
 

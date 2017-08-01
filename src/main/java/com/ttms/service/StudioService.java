@@ -4,9 +4,7 @@ import com.ttms.entity.Studio;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-5.
- */
+
 public interface StudioService {
 
     public void insertStudio(Studio studio);

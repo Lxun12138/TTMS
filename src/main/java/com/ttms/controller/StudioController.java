@@ -12,9 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by hjh on 16-12-5.
- */
+
 @Controller("StudioController")
 @RequestMapping("/studio")
 public class StudioController {

@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-14.
- */
+
 @Service("PageServiceImpl")
 public class PageServiceImpl implements PageService {
 

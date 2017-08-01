@@ -14,9 +14,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-10.
- */
+
 @Service("ScheduleServiceImpl")
 public class ScheduleServiceImpl implements ScheduleService {
 

@@ -10,9 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by hjh on 16-12-5.
- */
+
 @Service("StudioServiceImpl")
 public class StudioServiceImpl implements StudioService {
 
