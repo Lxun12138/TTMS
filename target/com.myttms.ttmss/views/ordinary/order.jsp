@@ -2,13 +2,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.ttms.entity.Seat" %>
 <%@ page import="com.ttms.entity.Schedule" %>
-<%@ page import="com.ttms.entity.User_sale" %><%--
-  Created by IntelliJ IDEA.
-  User: hjh
-  Date: 2017/6/2
-  Time: 上午11:06
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.ttms.entity.User_sale" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML>
 <html>
