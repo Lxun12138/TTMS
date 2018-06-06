@@ -2,6 +2,8 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.ttms.entity.Studio" %>
 <%@ page import="com.ttms.entity.Seat" %>
+<%@ page import="com.ttms.entity.Play" %>
+<%@ page import="com.ttms.entity.Schedule" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -187,26 +189,20 @@
     <div class="mian_top_l"></div>
     <div class="mian_top_c">
         <ul>
-            <li><a href="/seat/seatshow">
+            <li><a href="/ticket/seatticketshow">
                 <p>
                     座位一览</p>
-            </a></li>
-            <li><a href="/seat/tochangeseat">
-                <p>
-                    修改座位</p>
-            </a></li>
-            <li><a href="/seat/todelseat">
-                <p>
-                    删除座位</p>
             </a></li>
         </ul>
     </div>
     <%
+        List <Play> list1 = (List<Play>)request.getAttribute("play");
+        List<Schedule> list2= (List<Schedule>)request.getAttribute("schedule");
         List<Studio> lists = (List<Studio>)request.getAttribute("list");
         Studio studio = (Studio)request.getAttribute("studio");
         int [][] seat_statu =  (int[][])request.getAttribute("seat_statu");
     %>
-    <form action="/seat/seatsshow" method="post">
+    <form action="/ticket/seatshow" method="post">
         <div class="mian_b">
             <div class="mian_b1">
                 &nbsp;

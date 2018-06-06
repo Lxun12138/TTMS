@@ -28,4 +28,5 @@ public interface TicketService {
     public void   updateTicketStatus(Ticket ticket);
     public Schedule searchbyidforsche(Ticket ticket);
     public Seat serchforseat(Ticket ticket);
+   // public void saveTicketInfo();
 }

@@ -104,7 +104,7 @@
                             </a>
                         </li>
                         <li class="y_css" id="xx7">
-                            <a href="/ticket/Seat" target="mainFrame"><span></span>
+                            <a href="/ticket/seatticketshow" target="mainFrame"><span></span>
                                 <p class="icon_10">
                                     管理员售票
                                 </p>

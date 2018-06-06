@@ -142,7 +142,7 @@
     <div class="mian_top_l"></div>
     <div class="mian_top_c">
         <ul>
-            <li><a href="/seat/seatshow">
+            <li><a href="/seat/seatticketshow">
                 <p>
                     座位一览</p>
             </a></li>
@@ -155,7 +155,7 @@
         List<Schedule> list2= (List<Schedule>)request.getAttribute("schedule");
     %>
 
-    <form action="/ticket/Seat" method="post">
+    <form action="/ticket/seatshow" method="post">
     <div class="mian_b">
         <div class="mian_b1">
             &nbsp;
@@ -169,7 +169,7 @@
                 <% } %>
             </select>
 
-            <select name="studioid">
+            <select name="playid">
                 <option value=""></option>
                 <%
                     for(Play list : list1){
@@ -179,7 +179,7 @@
             </select>
 
 
-            <select name="studioid">
+            <select name="schedid">
                 <option value=""></option>
                 <%
                     for(Schedule list : list2){
@@ -194,10 +194,6 @@
             &nbsp;
             <input type="submit" value="购票"　id="sbutton"/>
 
-            <div>
-                <input>
-
-            </div>
 
             <div class="container">
                 <div class="container_wrap">

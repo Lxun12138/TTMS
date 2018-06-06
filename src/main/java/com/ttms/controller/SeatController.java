@@ -30,6 +30,8 @@ public class SeatController {
     @RequestMapping("/seatshow")
     public ModelAndView seatShowPage(HttpServletRequest request){
 
+
+
         List<Studio> list = studioService.selectStudio();
         request.setAttribute("list", list);
         return new ModelAndView("/manager/task/Seat");

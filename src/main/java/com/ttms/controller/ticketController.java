@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -39,24 +40,34 @@ public class ticketController {
     @Autowired
     User_saleService user_saleService;
 
-    @RequestMapping("/Seat")
+
+    @RequestMapping("/seatshow")
+    public ModelAndView seatShow(HttpServletRequest request){
+
+        String studio_id = request.getParameter("studioid");
+        int id = Integer.parseInt(studio_id);
+        Studio studio = studioService.selectStudioByStudio_id(id);
+        List<Studio> list = studioService.selectSpecialStudio(id);
+        int[][] seat_statu = seatService.selectSeatByStudio_id(id);
+
+        List<Studio> list1 = studioService.selectStudio();
+        List<Play> playList = playService.selectPlay();
+        List<Schedule> scheduleList = scheduleService.selectSchedule();
+
+        request.setAttribute("list1", list1);
+        request.setAttribute("play", playList);
+        request.setAttribute("schedule", scheduleList);
+
+        request.setAttribute("list", list);
+        request.setAttribute("studio", studio);
+        request.setAttribute("seat_statu", seat_statu);
+
+        return new ModelAndView("/manager/ticket/Seats");
+    }
+
+    @RequestMapping("/seatticketshow")
     public ModelAndView seatShowPage(HttpServletRequest request) {
 
-//            Sale sale = new Sale();
-//            sale.setEmp_id(12);
-//            sale.setSale_time("2016-1-1");
-//            saleService.insertSale(sale);
-//
-//             Ticket ticket = new Ticket();
-//
-//             ticket.setSched_id(1);
-//             ticket.setSeat_id(11);
-//             ticket.setTicket_price(111);
-//             ticket.setTicket_locked_time("2016-10-10");
-//             ticket.setTicket_status(1);
-//
-//             ticketService.insertTicket(ticket);
-//
         List<Studio> list = studioService.selectStudio();
         List<Play> playList = playService.selectPlay();
         List<Schedule> scheduleList = scheduleService.selectSchedule();
@@ -64,6 +75,7 @@ public class ticketController {
         request.setAttribute("list", list);
         request.setAttribute("play", playList);
         request.setAttribute("schedule", scheduleList);
+
         return new ModelAndView("/manager/ticket/Seat");
 
     }
@@ -71,29 +83,28 @@ public class ticketController {
     @RequestMapping("/lockTicket")
     public ModelAndView lockTicket(HttpServletRequest request) {
 
-
         String data = request.getParameter("data");
         JSONObject object = new JSONObject(data);
-        System.out.println(object);
+
         int row = object.getInt("row");
-        System.out.println("aaa"+row);
+
         int col = object.getInt("col");
-        System.out.println("ahshshdh"+col);
+
         int studio_id = object.getInt("studio");
-        System.out.println(studio_id+"studio_id");
+
         int sched_id = object.getInt("sched");
-        System.out.println(sched_id+"sched_id");
+
         int action = object.getInt("flag");
-        System.out.println(action+"action");
+
         Studio name = studioService.selectStudioByStudio_id(studio_id);
         Seat seat = seatService.selectSeatByPosition2(name.getStudio_name(),row,col);
         Schedule schedule = scheduleService.selectScheduleBySched_id(sched_id);
-        System.out.println("flas " + action);
+
         int ticket_id;
         Ticket ticket = new Ticket();
         ticket.setSched_id(sched_id);
         ticket.setSeat_id(seat.getSeat_id());
-        System.out.println("seat_id"+seat.getSeat_id()+"schedule_id"+sched_id);
+
         ticket = ticketService.SearchTicket2(ticket);
 
         if (ticket == null) {
@@ -106,7 +117,6 @@ public class ticketController {
             ticket1.setTicket_status(0);
             ticket1.setTicket_price(schedule.getSched_ticket_price());
             ticketService.insertTicket(ticket1);
-            System.out.println("b"+ticket1);
             flag = ticketService.lockTicket(ticket1);
             request.setAttribute("flag",flag);
 
@@ -124,7 +134,6 @@ public class ticketController {
                 flags = ticketService.lockTicket(ticket);
                 request.setAttribute("flag",flags);
             } else {
-                // return
             }
         }
 
@@ -139,7 +148,7 @@ public class ticketController {
         String datas = request.getParameter("data");
         JSONObject object = new JSONObject(datas);
         String data = object.getString("orders");
-        System.out.println(data);
+
         int studio_id = object.getInt("studio");
         int sched_id = object.getInt("sched");
         String[] positoion = data.split("\\|");

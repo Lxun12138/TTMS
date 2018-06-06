@@ -50,7 +50,7 @@ public class UserController {
             request.getSession().setAttribute("login", "yes");
             request.getSession().setAttribute("a", "ok");
             request.getSession().setAttribute("names", employee_id);
-            page = "/ordinary/shows";
+            page = "/show";
 
         } else if (result == 1) {
 
