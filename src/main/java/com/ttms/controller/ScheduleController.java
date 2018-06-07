@@ -1,14 +1,8 @@
 package com.ttms.controller;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-import com.ttms.entity.Play;
-import com.ttms.entity.Schedule;
-import com.ttms.entity.ScheduleDetail;
-import com.ttms.entity.Studio;
-import com.ttms.service.PageService;
-import com.ttms.service.PlayService;
-import com.ttms.service.ScheduleService;
-import com.ttms.service.StudioService;
+
+import com.ttms.entity.*;
+import com.ttms.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,6 +25,12 @@ public class ScheduleController {
     StudioService studioService;
     @Autowired
     PlayService playService;
+
+    @Autowired
+    TicketService ticketService;
+
+    @Autowired
+    SeatService seatService;
 
 
     @RequestMapping("/showsched")
@@ -57,11 +57,23 @@ public class ScheduleController {
     public ModelAndView addSchedPage(HttpServletRequest request){
 
         String studio_id = request.getParameter("studioid");
-        System.out.println("studio_id"+studio_id);
         String play_id = request.getParameter("playid");
         String sched_time = request.getParameter("schedtime");
         String sched_ticket_price = request.getParameter("schedprice");
         String errors = scheduleService.addSchedule(studio_id, play_id, sched_time, sched_ticket_price);
+
+        int sch_id=scheduleService.searchSchIdByInfo(Integer.parseInt(studio_id), Integer.parseInt(play_id), sched_time, sched_ticket_price);
+        List<Integer> seatIdList=seatService.selectSeat_idByStudio_id(Integer.parseInt(studio_id));
+        for (int i = 0; i <seatIdList.size() ; i++) {
+            Ticket ticket=new Ticket();
+            ticket.setSched_id(sch_id);
+            ticket.setTicket_status(0);
+            ticket.setSeat_id(seatIdList.get(i));
+            ticket.setTicket_price(Double.parseDouble(sched_ticket_price));
+            ticket.setTicket_locked_time(String.valueOf(20));
+            ticketService.insertTicket(ticket);
+        }
+
         request.setAttribute("errors", errors);
         return new ModelAndView("/manager/schedule/AddSchedule2");
 

@@ -25,4 +25,6 @@ public interface ScheduleDAO {
     public Studio searchbyscid(Schedule sche);
     public Play   searchforplay(Schedule sche);
 
+    public Integer searchSchIdByInfo(int studio_id, int play_id, String sched_time, String sched_ticket_price);
+
 }

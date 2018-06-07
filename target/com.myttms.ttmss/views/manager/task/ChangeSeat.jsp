@@ -27,10 +27,22 @@
             </a></li>
         </ul>
     </div>
+
+
+
+
     <div class="mian_b">
+        <div class="mian_b1">
+
+            <a href="/views/manager/task/AddSeat.jsp" title="添加">
+                <p class="mian_b1_a1">
+                </p>
+            </a>
+        </div>
         <%
             List<Studio> lists = (List<Studio>)request.getAttribute("list");
         %>
+
         <form action="/seat/changeseat" method="post">
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mian_b_bg_xz">
                 <tr>

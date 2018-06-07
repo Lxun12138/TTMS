@@ -25,4 +25,6 @@ public interface ScheduleService {
     public Play   searchforplay(Schedule sche);
 
     public List<Schedule> selectScheduleByPlay_id(int play_id);
+
+    public Integer searchSchIdByInfo(int studio_id,int play_id,String sched_time,String sched_ticket_price);
 }

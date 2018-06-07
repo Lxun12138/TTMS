@@ -121,11 +121,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         int i=0;
                         int j=0;
                         for(Play list:lists){
-
                             String[] actor = list.getPlay_actor().split(",");
-
                             if(i % 2== 0){
-
                                 ++j;
                     %>
                     <div class="movie movie-test movie-test-dark movie-test-left">

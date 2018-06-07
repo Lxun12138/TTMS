@@ -30,28 +30,28 @@ public class SeatController {
     @RequestMapping("/seatshow")
     public ModelAndView seatShowPage(HttpServletRequest request){
 
-
-
         List<Studio> list = studioService.selectStudio();
         request.setAttribute("list", list);
         return new ModelAndView("/manager/task/Seat");
-
     }
 
     @RequestMapping("/seatsshow")
     public ModelAndView seatsShowPage(HttpServletRequest request){
 
         String studio_id = request.getParameter("studioid");
-        int id = Integer.parseInt(studio_id);
-        Studio studio = studioService.selectStudioByStudio_id(id);
-        List<Studio> list = studioService.selectSpecialStudio(id);
-        int[][] seat_statu = seatService.selectSeatByStudio_id(id);
+        if(studio_id==null){
+            return this.seatShowPage(request);
+        }else {
+            int id=Integer.parseInt(studio_id);
+            Studio studio = studioService.selectStudioByStudio_id(id);
+            List <Studio> list = studioService.selectSpecialStudio(id);
+            int[][] seat_statu = seatService.selectSeatByStudio_id(id);
 
-        request.setAttribute("list", list);
-        request.setAttribute("studio", studio);
-        request.setAttribute("seat_statu", seat_statu);
-
-        return new ModelAndView("/manager/task/Seats");
+            request.setAttribute("list", list);
+            request.setAttribute("studio", studio);
+            request.setAttribute("seat_statu", seat_statu);
+            return new ModelAndView("/manager/task/Seats");
+        }
     }
 
 
@@ -91,25 +91,25 @@ public class SeatController {
         return new ModelAndView("/ordinary/seats");
     }
 
-//    @RequestMapping("/addseat")
-//    public ModelAndView addSeatPage(HttpServletRequest request){
-//
-//        String studio_name = request.getParameter("studioname");
-//        String row = request.getParameter("studiorow");
-//        int seat_row = Integer.parseInt(row);
-//        String col = request.getParameter("studiocol");
-//        int seat_column = Integer.parseInt(col);
-//        String status = request.getParameter("studiostatu");
-//        int seat_status = Integer.parseInt(status);
-//
-//        String errors = seatService.addSeat(studio_name, seat_row, seat_column, seat_status);
-//        List<Studio> list = studioService.selectStudio();
-//        request.setAttribute("list", list);
-//        request.setAttribute("errors", errors);
-//
-//        return  new ModelAndView("/manager/task/AddSeat");
-//
-//    }
+    @RequestMapping("/addseat")
+    public ModelAndView addSeatPage(HttpServletRequest request){
+
+        String studio_name = request.getParameter("studioname");
+        String row = request.getParameter("studiorow");
+        int seat_row = Integer.parseInt(row);
+        String col = request.getParameter("studiocol");
+        int seat_column = Integer.parseInt(col);
+        String status = request.getParameter("studiostatu");
+        int seat_status = Integer.parseInt(status);
+
+        String errors = seatService.addSeat(studio_name, seat_row, seat_column, seat_status);
+        List<Studio> list = studioService.selectStudio();
+        request.setAttribute("list", list);
+        request.setAttribute("errors", errors);
+
+        return  new ModelAndView("/manager/task/AddSeat");
+
+    }
 
 //    @RequestMapping("/toaddseat")
 //    public ModelAndView toAddSeatPage(HttpServletRequest request){
@@ -144,6 +144,11 @@ public class SeatController {
         int seat_row = Integer.parseInt(row);
         String col = request.getParameter("studiocol");
         int seat_column = Integer.parseInt(col);
+        if(studio_name == null || null == row || (col == null)){
+            List<Studio> list = studioService.selectStudio();
+            request.setAttribute("list", list);
+            return new ModelAndView("/manager/task/DeleteSeat");
+        }
         String errors = seatService.selectSeatByPosition(studio_name, seat_row, seat_column);
         List<Studio> list = studioService.selectStudio();
         request.setAttribute("list", list);

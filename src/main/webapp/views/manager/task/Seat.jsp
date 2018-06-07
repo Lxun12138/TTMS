@@ -161,14 +161,14 @@
         <div class="mian_b1">
             &nbsp;
             &nbsp;
-            <select name="studioid">
-                <option value=""></option>
-                <%
-                    for(Studio list : lists){
-                %>
-                <option value="<%=list.getStudio_id()%>"><%=list.getStudio_name()%></option>
-                <% } %>
-            </select>
+                <select name="studioid">
+                    <%
+                        for(Studio list : lists){
+                    %>
+                    <option value="<%=list.getStudio_id()%>"><%=list.getStudio_name()%></option>
+                    <% } %>
+                </select>
+
             &nbsp;
             &nbsp;
             &nbsp;

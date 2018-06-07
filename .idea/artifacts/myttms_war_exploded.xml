@@ -37,6 +37,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: org.json:json:20160810" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

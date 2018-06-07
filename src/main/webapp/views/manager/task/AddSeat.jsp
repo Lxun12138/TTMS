@@ -45,14 +45,14 @@
                     <td>&nbsp;</td>
                     <td width="10%" valign="top">影厅名字：</td>
                     <td width="55%">
-                        <%--<input type="text" class="input_01" name="studioname" id="textfield"> --%>
-                            <select name="studioname">
-                                <%
-                                    for(Studio list : lists){
-                                %>
-                                <option value="<%=list.getStudio_name()%>"><%=list.getStudio_name()%></option>
-                                <% } %>
-                            </select>
+                        <input type="text" class="input_01" name="studioname" id="textfield">
+                            <%--<select name="studioname">--%>
+                                <%--<%--%>
+                                    <%--for(Studio list : lists){--%>
+                                <%--%>--%>
+                                <%--<option value="<%=list.getStudio_name()%>"><%=list.getStudio_name()%></option>--%>
+                                <%--<% } %>--%>
+                            <%--</select>--%>
                     </td>
                     <td width="35%">&nbsp;</td>
                 </tr>

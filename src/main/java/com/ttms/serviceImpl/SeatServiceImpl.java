@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 @Service("SeatServiceImpl")
@@ -33,12 +34,8 @@ public class SeatServiceImpl implements SeatService {
         List<Seat> list = null;
         list = seatDAO.selectSeatByStudio_id(studio_id);
         Studio studio = studioDAO.selectStudioByStudio_id(studio_id);
-
-        System.out.println("hdjhkghkd");
         int studio_row = studio.getStudio_row_count();
         int studio_col = studio.getStudio_col_count();
-        System.out.println("row"+studio_row);
-        System.out.println("col"+studio_col);
         int[][] seat_statu = new int[studio_row + 1][studio_col + 1];
 
         for (int i = 0; i < studio_row+1; i++) {
@@ -130,42 +127,51 @@ public class SeatServiceImpl implements SeatService {
         return errors;
     }
 
-//    @Override
-//    public String addSeat(String studio_name, int seat_row, int seat_column, int seat_status) {
-//
-//        String errors = "该影厅不存在";
-//        Studio studio = studioDAO.selectStudioByStudio_name(studio_name);
-//        if (studio != null) {
-//
-//            int row = studio.getStudio_row_count();
-//            int col = studio.getStudio_col_count();
-//            if (seat_row > row || seat_column > col) {
-//
-//                errors = "该座位位置不规范";
-//
-//            } else {
-//
-//                int studio_id = studio.getStudio_id();
-//                Seat seat = seatDAO.selectSeatByPosition(studio_id, seat_row, seat_column);
-//                Seat seat1 = null;
-//                if (seat != null) {
-//
-//                    errors = "该座位已存在";
-//
-//                }
-//
-//                seat1 = new Seat();
-//                seat1.setStudio_id(studio_id);
-//                seat1.setSeat_row(seat_row);
-//                seat1.setSeat_column(seat_column);
-//                seat1.setSeat_status(seat_status);
-//                seatDAO.insertSeat(seat1);
-//                errors = "增加成功！";
-//            }
-//
-//        }
-//        return errors;
-//    }
+    @Override
+    public List <Integer> selectSeat_idByStudio_id(int studio_id) {
+
+        List<Seat> seat=seatDAO.selectSeatByStudio_id(studio_id);
+        List<Integer> seat_id=seat.stream().map(Seat :: getSeat_id).collect(Collectors.toList());
+
+        return seat_id;
+    }
+
+    @Override
+    public String addSeat(String studio_name, int seat_row, int seat_column, int seat_status) {
+
+        String errors = "该影厅不存在";
+        Studio studio = studioDAO.selectStudioByStudio_name(studio_name);
+        if (studio != null) {
+
+            int row = studio.getStudio_row_count();
+            int col = studio.getStudio_col_count();
+            if (seat_row > row || seat_column > col) {
+
+                errors = "该座位位置不规范";
+
+            } else {
+
+                int studio_id = studio.getStudio_id();
+                Seat seat = seatDAO.selectSeatByPosition(studio_id, seat_row, seat_column);
+                Seat seat1 = null;
+                if (seat != null) {
+
+                    errors = "该座位已存在";
+
+                }
+
+                seat1 = new Seat();
+                seat1.setStudio_id(studio_id);
+                seat1.setSeat_row(seat_row);
+                seat1.setSeat_column(seat_column);
+                seat1.setSeat_status(seat_status);
+                seatDAO.insertSeat(seat1);
+                errors = "增加成功！";
+            }
+
+        }
+        return errors;
+    }
 }
 
 

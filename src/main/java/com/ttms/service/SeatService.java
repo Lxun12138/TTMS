@@ -16,7 +16,8 @@ public interface SeatService {
     public Seat  selectSeatByPosition2(String studio_name, int seat_row, int seat_column);
     public String  selectSeatByPosition(String studio_name, int seat_row, int seat_column);
     public String changeSeat(String studio_name, int seat_row, int seat_column, int seat_status);
-//    public String addSeat(String studio_name, int seat_row, int seat_column, int seat_status);
+    public String addSeat(String studio_name, int seat_row, int seat_column, int seat_status);
+    public List<Integer> selectSeat_idByStudio_id(int studio_id);
 
 
 }
